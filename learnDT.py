@@ -152,8 +152,8 @@ def testDT(data, print_tree=True, selections = None, **tree_args):
 if __name__ == "__main__":
     # Choose one of the data files
     #data=Data_from_file('data/SPECT.csv', target_index=0); print("SPECT.csv")
-    #data=Data_from_file('data/iris.data', target_index=-1); print("iris.data")
-    data = Data_from_file('data/carbool.csv', target_index=-1, seed=123)
+    data=Data_from_file('data/iris.data', target_index=-1); print("iris.data")
+    #data = Data_from_file('data/carbool.csv', target_index=-1, seed=123)
     #data = Data_from_file('data/mail_reading.csv', target_index=-1);  print("mail_reading.csv")
     #data = Data_from_file('data/holiday.csv', has_header=True, num_train=19, target_index=-1); print("holiday.csv")
     testDT(data, print_tree=False)
